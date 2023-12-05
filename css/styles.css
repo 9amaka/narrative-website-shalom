@@ -93,6 +93,10 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.bg-brown {
+  background-color: #ffffff;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -603,7 +607,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
