@@ -603,7 +603,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -11563,7 +11563,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/2main-home-img.png");
+  background: url("../assets/img/picture-two-girls.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11591,12 +11591,13 @@ body {
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
-    padding: 0;
+    padding: 50px;
   }
   .masthead h1, .masthead .h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
+    padding-top: -2rem;
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
